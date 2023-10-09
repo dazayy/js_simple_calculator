@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/view.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+            <div class="wrapper">
+                <h1 class="title">Калькулятор</h1>
+                <div class="input-content">
+                    <input class="inpt" id="input1" type="number" placeholder="take a number">
+                    <input class="inpt" id="input2" type="number" placeholder="take a number">
+                </div>
+                <div class="btns">
+                    <a id="plus" class="primary-btn plus" href="#">+</a>
+                    <a id="minus" class="primary-btn minus" href="#">-</a>
+                    <a id="multiply" class="primary-btn multiply" href="#">*</a>
+                    <a id="divide" class="primary-btn divide" href="#">/</a>
+                    
+                </div>
+                <a id="calculate" class="primary-btn calculate" href="#">Вычислить</a>
+               <div class="result">
+                    <h2>Результат:</h2>
+                    <p id="result-value"></p>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
